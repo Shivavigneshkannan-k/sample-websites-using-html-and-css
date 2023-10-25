@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Poppins:wght@400;700&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url(images/background15.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: gainsboro;
+}
+a{
+    text-decoration: none;
+    color: #000
+}
+.nav-bar{
+    padding: 2em 5em;
+    display: flex;
+    justify-content: space-between;
+    flex:1;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+
+}
+.nav-bar>p{
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    justify-self: start;
+}
+.nav-bar ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap:2em;
+    
+}
+.hero{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.hero_content{
+    display: flex;
+    font-size: 2.5rem;
+    /* justify-content: center; */
+    align-items: start;
+    flex-flow:column wrap;
+    line-height: 1.75em;
+    padding-left: .5em;
+    padding-top: 2em;
+    font-weight: 700;
+    color: hsla(0, 0%, 27%, 0.96);
+}
+.image{
+    background-color: #ffffffba;
+
+    /* width:95%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    border-radius: 20% 80%;
+}
+
